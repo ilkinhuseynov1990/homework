@@ -1,0 +1,98 @@
+*{
+		margin:0;
+		padding: 0;
+	}
+	.center{
+		width: 900px;
+		margin:10% auto;
+	}
+
+	body{
+		background-image:linear-gradient(to right,#1BA4C8, #4DB5C2) ;
+		font-family: 'Trebucher Ms',Arial;
+	}
+	.texter{
+		margin-bottom:8%;
+		color: #fff;
+	}
+
+	.texter p{
+		font-size: 0.9em;
+	}
+	
+
+	.info{
+		color:#fff;
+		margin:0 60px 0 0;
+	}
+	#name , #lastname{
+		padding: 10px;
+		font-size: 18px;
+		margin:0 0 0 20px;
+	}
+	.mail{
+		color:#fff;
+		margin:0 90px 0 0;
+	}
+	#mail{
+		width: 55%;
+    	font-size: 16px;
+    	padding: 6px;
+    	margin-top:20px;
+	}
+
+	#num1,#num2,#num3{
+	 font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 125px;
+    margin-right: 27px;
+	}
+
+	.phone{
+		color:#fff;
+		margin-right: 110px;
+	}
+
+	.subjec{
+		color: #fff;
+		margin-right: 35px;
+	}
+
+	#subject{
+	padding: 10px;
+    width: 305px;
+    margin-top: 20px;
+	}
+
+	.message{
+		margin-right: 95px;
+		float: left;
+		margin-top:20px;
+		color:#fff;
+	}
+
+	#textmessage{
+		margin-top:20px;
+	}
+	hr{
+		height: 1px;
+		border:none; 
+		background-color:#fff;
+		margin-top:20px;
+	}
+
+	input[type="submit"]{
+		margin-top:50px;
+		padding: 10px;
+		border-radius: 4px;
+		text-transform: capitalize;
+		width:300px;
+		color:#fff;
+		border:thin solid #fff;
+		background-color: #0D9ECA;
+	}
+	textarea{
+		padding: 5px;
+		font-family: 'Trebuchet Ms';
+	}
